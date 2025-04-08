@@ -31,11 +31,8 @@ body {
   z-index: 0;
   animation: moonColor 10s ease infinite;
   overflow: hidden;
-}
-
-.moon {
   clip-path: circle(50%);
-  transform: translateZ(0); /* GPU 강제 사용 */
+  transform: translateZ(0);
 }
 
 @keyframes moonColor {
